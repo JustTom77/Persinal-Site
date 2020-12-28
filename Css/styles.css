@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+/* colors: #c6ebc9(hellgrün), #70af85(dunkelgrün), #f0e2d0(hellbraun), #aa8976(dunkelbraun)*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #70af85;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #70af85;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #41584b;
+}
+
+#intro-text {
+  width: 30%;
+  margin: 80px auto 80px auto;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.dotted-line {
+  border-top: 8px dotted #c2d3d3f5;
+  border-bottom: none;
+  width: 100px;
+  margin-bottom: 80px;
+}
+
+#my-skills {
+  margin-bottom: -50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-text-1 {
+  width: 800px;
+  font-weight: bold;
+}
+
+.skill-text-2 {
+  width: 800px;
+  font-weight: bold;
+}
+
+.css-img {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.top-container {
+  background-color: #c6ebc9;
+  position: relative;
+  padding-top: 150px;
+}
+
+#profile {
+  margin-top: 80px;
+  border-radius: 50%;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #70af85;
+  height: 200px;
+  position: relative;
+}
+
+.footer-link-instagram {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  right: 700px;
+  color: #41584b;
+}
+
+.footer-link-twitter {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #41584b;
+}
+
+.footer-link-linkedin {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  color: #41584b;
+}
+
+.footer-link-linkedin:active,
+.footer-link-twitter:active,
+.footer-link-instagram:active {
+  color: #41584b;
+}
+
+.footer-link-linkedin:hover,
+.footer-link-twitter:hover,
+.footer-link-instagram:hover {
+  color: #f0e2d0;
+}
+#copyright {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #f0e2d0;
+}
+
+#text {
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: Open Sans;
+  width: 300px;
+  font-size: 31px;
+  font-weight: 600;
+  padding: 19px;
+  background-color: #70af85;
+  text-decoration: none;
+
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #c6ebc9;
+  border: solid #c6ebc9 1px;
+  color: #41584b;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
